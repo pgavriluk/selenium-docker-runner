@@ -5,14 +5,14 @@ pipeline{
     stages {
         stage('Run Test'){
             steps{
-                echo "docker compose up"
+                sh "docker compose up"
             }
 
         }
 
         stage('Bring Grid Down') {
             steps{
-                echo "docker compose down"
+                sh "docker compose down"
             }
 
         }
