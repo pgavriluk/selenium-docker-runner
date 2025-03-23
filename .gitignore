@@ -29,7 +29,6 @@ Thumbs.db
 *.html
 
 # Ignore environment files
-.env
 config.properties
 
 # Package Files #
